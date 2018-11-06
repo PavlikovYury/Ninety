@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: '2DUMB';
+    src: url(../fonts/3DUMB/web%20fonts/2dumb_regular_macroman/2Dumb-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '3DUMB';
+    src: url(../fonts/3DUMB/web%20fonts/3dumb_regular_macroman/3Dumb-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background-color: #ABF8FF;
+}
+
+.logo_img  {
+
+	background: url(../img/logo.jpg)  no-repeat;
+	background-size: contain;
+    height: 250px;
+    width: 250px;
+    float: none;
+
+}
+
+
+
+
+li {
+	list-style: none;
+}
+
+nav {
+	display: block;
+	float: left;
+}
+
+article {
+	display: block;
+}
+
+.navig {
+	text-decoration: none;
+	color: #368621;
+	font-family: '2DUMB';
+	font-weight: 900;
+	font-size: 45px;
+	font-style: normal;
+	text-transform: uppercase;
+	text-shadow: -3px 4px 2px #D014B3;
+}
+
+
+
+.grid_art {
+	position: relative;
+	float: left;
+	text-align: center;
+	height: 100px;
+	width: 110px;
+}
+
+
+.grid_img {
+	width: 120px;
+	height: 80px;
+	float: none;
+}
+
+.logo_link {
+	height: 250px;
+    width: 250px;
+    box-sizing: border-box;
+    display: block;
+    margin: 80px 0 0 80px;
+}
+
+.name_art {
+}
